@@ -1,0 +1,23 @@
+.poster {
+    color: var(--text-color);
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    padding: 32px 0;
+    grid-template-columns: 1fr 1fr;
+    
+    border: 1px solid red
+}
+
+.poster h2 {
+    margin: 0;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+iframe {
+    aspect-ratio: 2/1;
+}
