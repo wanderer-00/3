@@ -1,0 +1,61 @@
+:root {
+    --review-icon-height: 100px;
+    --review-gap: 10px;
+    --review-name-height: 50px;
+    --review-star-height: 50px;
+}
+
+.review {
+    color: var(--color-text);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 20px;
+}
+
+.review > div {
+    overflow: hidden;
+    padding: 24px 16px;
+    grid-gap: var(--review-gap);
+    border-radius: 6px;
+    background-color: var(--color-background);
+    display: grid;
+    grid-template-columns: var(--review-icon-height) 1fr;
+    grid-template-rows: calc(var(--review-name-height) - var(--review-gap)/2)
+                        calc(var(--review-star-height) - var(--review-gap)/2)
+                        auto;
+    grid-template-areas: "ICON NAME"
+                         "ICON STAR"
+                         "NOTE NOTE";
+}
+
+.review > div h2 {margin: 0}
+
+.review > div .icon {
+    grid-area: ICON;
+    height: var(--review-icon-height);
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.review > div .name {
+    grid-area: NAME;
+}
+
+.review > div .star {
+    grid-area: STAR;
+}
+
+.review > div .note {
+    grid-area: NOTE;
+}
+
+
+/* Мобильная версия */
+@media (orientation: portrait) {
+    .review {
+        grid-template-columns: 1fr;
+    }
+}
