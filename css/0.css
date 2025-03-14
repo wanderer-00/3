@@ -5,10 +5,11 @@
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 a {
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -24,6 +25,12 @@ body {
 header {
     background-color: var(--color);
     color: white;
+}
+
+header .wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .wrapper {
