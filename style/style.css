@@ -31,9 +31,54 @@ a {
     margin: auto;
 }
 
+
+
+/* header */
+header > .wrapper {
+    font-size: 36px;
+    color: var(--about-txt);
+    display: grid;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: end;
+    grid-template-columns: auto 1fr;
+}
+nav {
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
 @font-face {
     font-family: "Montserrat";
     src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+}
+
+@media (width<=1366px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    #services {
+        background-color: red;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: purple;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 2em;
+    }
+    
+    header > .wrapper nav {
+        display: none;
+    }
 }
