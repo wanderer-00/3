@@ -75,7 +75,7 @@ nav {
 
     .wrapper {
         width: 100%;
-        margin: 2em;
+        padding: 2em
     }
     
     header > .wrapper nav {
