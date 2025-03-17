@@ -7,7 +7,7 @@
 *,
 *:before,
 *:after {
-    font-family: "Montserrat", cursive;
+    font-family: sans-serif, "Montserrat", cursive;
     box-sizing: border-box;
 }
 
