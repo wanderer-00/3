@@ -7,6 +7,10 @@
 - [Google Material Icons](https://fonts.google.com/icons)
 - [Simple Icons](https://simpleicons.org/)
 
+## Вспомогательные сервисы
+- [Генерация favicon](https://realfavicongenerator.net/)
+- [Хорошее настроение](https://music.yandex.ru/users/evgeny.vaflin/playlists/3)
+
 ## Результаты тестов
 ### Light House
 
