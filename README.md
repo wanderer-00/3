@@ -1,8 +1,8 @@
 # Заказ №3 - Сайт для подолога
 
 ## Используемые технологии
-- JQuery
-- Slick Slider
-- Google Fonts
+- [JQuery](https://jquery.com/)
+- [Slick Slider](https://kenwheeler.github.io/slick/)
+- [Google Fonts](https://fonts.google.com/)
 - [Google Material Icons](https://fonts.google.com/icons)
 - [Simple Icons](https://simpleicons.org/)
