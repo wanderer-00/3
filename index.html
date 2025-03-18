@@ -146,6 +146,73 @@
             </div>
 
 
+            <style>
+                .gallery_equipment {
+                    display: grid;
+                    grid-gap: 2em;
+                    grid-template-columns: repeat(5, 1fr);
+                }
+                
+                .gallery_equipment img {
+                    width: 100%;
+                    opacity: 0.7;
+                    border-radius: 8px;
+                }
+                
+                .gallery_equipment img:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            </style>
+            <h2>Интерьер и оборудование специализированного кабинета</h2>
+            <p>Оцените удобство и комфорт моего личного кабинета, посмотрев галерею фотографий</p>
+            <div class="equipment">
+                <div class="gallery_equipment">
+                    <a href="img/equipment/1.webp">
+                        <img src="img/equipment/1.webp" alt="Удобство">
+                    </a>
+                    <a href="img/equipment/2.webp">
+                        <img src="img/equipment/2.webp" alt="Простор">
+                    </a>
+                    <a href="img/equipment/3.webp">
+                        <img src="img/equipment/3.webp" alt="Профессионализм">
+                    </a>
+                    <a href="img/equipment/4.webp">
+                        <img src="img/equipment/4.webp" alt="Аккуратность">
+                    </a>
+                    <a href="img/equipment/5.webp">
+                        <img src="img/equipment/5.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/6.webp">
+                        <img src="img/equipment/6.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/7.webp">
+                        <img src="img/equipment/7.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/8.webp">
+                        <img src="img/equipment/8.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/9.webp">
+                        <img src="img/equipment/9.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/10.webp">
+                        <img src="img/equipment/10.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/11.webp">
+                        <img src="img/equipment/11.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/12.webp">
+                        <img src="img/equipment/12.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/13.webp">
+                        <img src="img/equipment/13.webp" alt="First image">
+                    </a>
+                    <a href="img/equipment/14.webp">
+                        <img src="img/equipment/14.webp" alt="First image">
+                    </a>
+                </div>
+            </div>
+
             <h2 id="contacts">Контакты</h2>
             <div class="contact">
 
@@ -166,6 +233,15 @@
                     <div class="hour">Работаю каждый день с 10:00 до 20:00</div>
                 </div>
 
+                <!-- галерея -->
+                <div class="gallery_contact">
+                    <a href="img/certificate/permission/1.webp" data-caption="Image caption">
+                        <img src="img/certificate/permission/1.webp" alt="First image">
+                    </a>
+                    <a href="img/certificate/permission/2.webp" data-caption="Image caption">
+                        <img src="img/certificate/permission/2.webp" alt="First image">
+                    </a>
+                </div>
             </div>
 
             <!-- VK box -->
@@ -202,7 +278,7 @@
 
             <style>
                 .gallery img {
-                    width: 200px
+                    width: 200px;
                 }
             </style>
             <div class="gallery">
@@ -227,6 +303,8 @@
 <script>
     window.addEventListener('load', function() {
         baguetteBox.run('.gallery');
+        baguetteBox.run('.gallery_equipment');
+        baguetteBox.run('.gallery_contact');
     });
 </script>
 
