@@ -7,7 +7,7 @@
 
 ## Хостинг
 Хостер [Jino](https://cp.jino.ru/) виртуальный сервер на операционной системе Debian с установленным nginx/1.26.1<br>
-FTP<br>
+SSH<br>
 Адрес: 1130936651cf.vps.myjino.ru<br>
 Порт: 49363<br>
 Логин: root<br>
