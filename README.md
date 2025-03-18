@@ -5,12 +5,16 @@
 - Номер: +7 (927) 349-22-11
 - График работы: без выходных с 10:00 – 20:00
 
+## Хостинг
+Хостер [Jino](https://cp.jino.ru/) виртуальный сервер на операционной системе Debian с установленным nginx/1.26.1
+
 ## Используемые технологии
 - [JQuery](https://jquery.com/)
 - [Slick Slider](https://kenwheeler.github.io/slick/)
 - [Google Fonts](https://fonts.google.com/)
 - [Google Material Icons](https://fonts.google.com/icons)
 - [Simple Icons](https://simpleicons.org/)
+- [BaguetteBox](https://feimosi.github.io/baguetteBox.js/)
 
 ## Вспомогательные сервисы
 - [Генерация favicon](https://realfavicongenerator.net/)
