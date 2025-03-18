@@ -1,7 +1,7 @@
 :root {
     --about-bg: #F0EBD2;
     --about-txt: #1A3637;
-    --br: 1em;
+    --br: 1rem;
 }
 
 *,

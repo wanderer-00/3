@@ -1,0 +1,77 @@
+:root {
+    --arrow-size: 100px;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    gap: 40px;
+    min-width: 0;
+    align-items: flex-start;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    margin: calc(var(--arrow-size)/2*-1) 0 0 0;
+    width: var(--arrow-size);
+    aspect-ratio: 1;
+    opacity: 0.8;
+    border: none;
+    background-color: transparent;
+}
+
+.slider .slick-arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: calc(var(--arrow-size)*-1);
+    background-image: url('../icon/slider/left.svg');
+}
+
+.slider .slick-arrow.slick-next {
+    right: calc(var(--arrow-size)*-1);
+    background-image: url('../icon/slider/right.svg');
+}
+
+
+/* точки */
+.slick-dots {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li {
+    list-style: none;
+}
+.slick-dots button {
+    --dots-size: 8px;
+
+    width: var(--dots-size);
+    aspect-ratio: 1/1;
+    font-size: 0;
+    border-radius: 50%;
+    border: 1px solid var(--about-txt);
+    background-color: transparent;
+}
+.slick-dots li.slick-active button {
+    background-color: var(--about-txt);
+}
