@@ -6,27 +6,20 @@
     grid-template-columns: 6fr 4fr;
 }
 
-.contact a {
-    display: flex;
-    padding: 1em 2em;
-    color: #FFF;
-    align-items: center;
-    border-radius: var(--br);
+.contact .buttons > a {
 }
 
-.contact > div {
+.contact .buttons {
     display: grid;
     grid-gap: 2em;
 }
 
 .icon {
-    width: 30px;
-    padding: 3px;
+    width: 42px;
     aspect-ratio: 1;
 }
 
-div.map,
-.hour {
+div.map {
     border-radius: var(--br);
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
