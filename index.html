@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- маштаб для телефонов -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
     <!-- общие стили -->
     <link rel="stylesheet" href="style/style.css">
     <!-- главная страница -->
@@ -10,8 +12,8 @@
     <link rel="stylesheet" href="style/contact.css">
     <!-- слайдер -->
     <link rel="stylesheet" href="style/slider.css">
-    <!-- маштаб для телефонов -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <!-- галерея -->
+    <link rel="stylesheet" href="style/baguetteBox.min.css">
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
@@ -28,11 +30,13 @@
     <header>
         <div class="wrapper">
             <div>
-                <div class="logo"></div>
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
                 <p>Наиля Гамировна</p>
             </div>
             <nav>
-                <a href="#">Главная</a>/<a href="#">Услуги</a>/<a href="#">Отзывы</a>/<a href="#">Оборудование</a>/<a href="#">Работы</a>/<a href="#">Контакты</a>
+                <a href="#">Главная</a>/<a href="#services">Услуги</a>/<a href="#reviews">Отзывы</a>/<a href="#">Оборудование</a>/<a href="#">Работы</a>/<a href="#contacts">Контакты</a>
             </nav>
         </div>
     </header>
@@ -64,7 +68,7 @@
                 </div>
             </div>
 
-            <h2><b>Отзывы клиентов</b></h2>
+            <h2 id="reviews"><b>Отзывы клиентов</b></h2>
             <div>
                 <div class="reviews">
                     <div class="review r1">
@@ -131,7 +135,7 @@
                     text-align: end;
                 }
             </style>
-            <h2>Услуги компании «Подолог № 1»</h2>
+            <h2 id="services">Услуги компании «Подолог № 1»</h2>
             <div id="services">
                 <div class="service">
                     <div>Название услуги</div>
@@ -142,7 +146,7 @@
             </div>
 
 
-            <h2>Контакты</h2>
+            <h2 id="contacts">Контакты</h2>
             <div class="contact">
 
                 <!-- карта -->
@@ -175,7 +179,7 @@
 
                 <h2>Присоединяйся к группе в VK</h2>
             </article>
-            
+
             <!-- сертификаты -->
             <h2>Сертификаты</h2>
             <div class="slider">
@@ -196,6 +200,19 @@
                 </div>
             </div>
 
+            <style>
+                .gallery img {
+                    width: 200px
+                }
+            </style>
+            <div class="gallery">
+                <a href="img/certificate/permission/1.webp" data-caption="Image caption">
+                    <img src="img/certificate/permission/1.webp" alt="First image">
+                </a>
+                <a href="img/certificate/permission/2.webp" data-caption="Image caption">
+                    <img src="img/certificate/permission/2.webp" alt="First image">
+                </a>
+            </div>
         </div>
     </main>
     <footer></footer>
@@ -203,6 +220,14 @@
 
 <script type="text/javascript" src="script/jquery-3.7.1.min.js"></script><!-- JQuery -->
 <script type="text/javascript" src="script/slick.min.js"></script><!-- Slick Slider -->
-<script type="text/javascript" src="script/main.js"></script></html><!--  -->
+<script type="text/javascript" src="script/main.js"></script><!--  -->
 <script type="text/javascript" src="data/services.js"></script><!-- данные услуг -->
 <script type="text/javascript" src="script/services.js"></script><!-- maker услуг -->
+<!-- галерея -->
+<script>
+    window.addEventListener('load', function() {
+        baguetteBox.run('.gallery');
+    });
+</script>
+
+<script type="text/javascript" src="script/baguetteBox.min.js"></script></html>

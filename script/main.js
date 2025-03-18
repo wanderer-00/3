@@ -1,3 +1,4 @@
+// slick slider
 $(document).ready(function(){
     $('.slider').slick({
         arrows:true,
@@ -13,3 +14,6 @@ $(document).ready(function(){
         centerMode: true,
     });
 });
+
+// galery
+baguetteBox.run('.gallery');

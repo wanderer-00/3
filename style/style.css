@@ -43,6 +43,19 @@ header > .wrapper {
     justify-items: end;
     grid-template-columns: auto 1fr;
 }
+
+header .wrapper div {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    height: 100px;
+}
+header .wrapper div .logo {
+    height: 100%;
+    margin: 20px;
+    aspect-ratio: 1/1;
+}
+
 nav {
     font-size: 24px;
     display: flex;
