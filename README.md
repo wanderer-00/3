@@ -11,6 +11,7 @@
 - [Google Fonts](https://fonts.google.com/)
 - [Google Material Icons](https://fonts.google.com/icons)
 - [Simple Icons](https://simpleicons.org/)
+- [BaguetteBox](https://feimosi.github.io/baguetteBox.js/)
 
 ## Вспомогательные сервисы
 - [Генерация favicon](https://realfavicongenerator.net/)
