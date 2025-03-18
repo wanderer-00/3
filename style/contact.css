@@ -2,19 +2,25 @@
     width: 100%;
     aspect-ratio: 4/1;
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 0 4em;
     grid-template-columns: 6fr 4fr;
 }
 
-.contact .buttons > a {
+.contact .buttons > * {
+    display: flex;
+    align-items: center;
+    padding: 1.4em 0;
+    font-size: 24px;
+    border-bottom: 1px solid black;
 }
+.contact .buttons > *:last-child {border-bottom: none}
 
 .contact .buttons {
     display: grid;
-    grid-gap: 2em;
 }
 
 .icon {
+    margin: 0 1em 0 0;
     width: 42px;
     aspect-ratio: 1;
 }
