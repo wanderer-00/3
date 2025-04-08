@@ -64,6 +64,45 @@ nav {
 
 
 
+
+
+/* Услуги */
+.service {
+    display: grid;
+    grid-gap: 3em;
+    margin: 2em 0;
+    grid-template-columns: 3fr 5fr 1fr 1fr;
+}
+
+#services>div:first-child {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#services .title {
+    margin: auto 0;
+    font-size: 28px;
+}
+
+#services .note {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+#services .price {
+    margin: auto 0;
+    font-size: 32px;
+}
+
+#services .more {
+    margin: auto 0;
+    text-align: end;
+}
+
+
+
+
+
 @font-face {
     font-family: "Montserrat";
     src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
